@@ -1,7 +1,11 @@
-Find prefix and suffix of all strings
-Maximum prefix length and suffix length
-Check if every prefix is a prefix of max_prefix. If not, return "IMPOSSIBLE"
-Check if every suffix is a suffix of max_suffix. If not, return "IMPOSSIBLE"
-Append all the middle part of strings
-Append max_prefix and max_suffix
-Replace every * with any character from A-Z and return it
+Find prefix or the part before the first * of all strings.
+Find suffix or the part after the last * of all strings.
+Find the prefix with maximum length (max_prefix).
+Find the suffix with maximum length (max_suffix).
+Check if every prefix is itself a prefix of max_prefix.
+If not, return "*" since no string can incorporate both the prefixes simultaneously.
+Check if every suffix is itself a suffix of max_suffix.
+If not, return "*" since no string can incorporate both the suffixes simultaneously.
+Append the middle part, that is the part between the first * and last *, of all strings.
+Append max_prefix, middle part and max_suffix.
+Replace every * with any character from A-Z or even '' and return it.
