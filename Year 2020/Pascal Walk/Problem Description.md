@@ -29,25 +29,3 @@ Test set 2 (Visible Verdict)
 1 ≤ N ≤ 1000.
 Test set 3 (Hidden Verdict)
 1 ≤ N ≤ 109.
-**Sample Input**
-3
-1
-4
-19
-**Sample Output**
-Case #1:
-1 1
-Case #2:
-1 1
-2 1
-2 2
-3 3
-Case #3:
-1 1
-2 2
-3 2
-4 3
-5 3
-5 2
-4 1
-3 1
