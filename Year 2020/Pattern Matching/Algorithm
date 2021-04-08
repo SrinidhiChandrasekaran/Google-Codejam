@@ -1,0 +1,7 @@
+Find prefix and suffix of all strings
+Maximum prefix length and suffix length
+Check if every prefix is a prefix of max_prefix. If not, return "IMPOSSIBLE"
+Check if every suffix is a suffix of max_suffix. If not, return "IMPOSSIBLE"
+Append all the middle part of strings
+Append max_prefix and max_suffix
+Replace every * with any character from A-Z and return it
